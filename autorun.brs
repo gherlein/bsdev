@@ -10,9 +10,9 @@ Sub Main()
     reg.Write("dwse", "yes")
     reg.Write("curl_debug", "1")
     reg.write("ssh", "22")
-    reg.write("telnet_log_level", "7") 
-    reg.write("telnet","23")
-    reg.write("serial_with_telnet", "1")
+    reg.write("telnet_log_level", "1") 
+    reg.write("telnet_server","24")
+    reg.write("serial_with_telnet", "0")
     reg.Flush()
 
     msg = "Added networking registry settings..."
